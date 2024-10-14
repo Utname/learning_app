@@ -105,12 +105,12 @@ function App() {
   return (
     <>
       <Redux></Redux>
-      {/* <div className="app-header">
+      <div className="app-header">
         <Header></Header>
       </div>
       <div className="app-content">
         <Outlet></Outlet>
-      </div> */}
+      </div>
       {/* <ExampleUseContext></ExampleUseContext> */}
       {/* <ExampleUseImperativeHanlde ref={myRef}></ExampleUseImperativeHanlde>
       <button onClick={() => myRef.current.submitForm()}>
